@@ -25,7 +25,6 @@ const LviReviews = extend(LviReviewsDesign)(
 					this.lbDetails.multiline = true;
 				}
 			}
-
 		});
 	}
 );

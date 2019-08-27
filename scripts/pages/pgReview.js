@@ -7,17 +7,12 @@ const extend = require('js-base/core/extend');
 const PgReviewDesign = require('ui/ui_pgReview');
 const componentContextPatch = require("@smartface/contx/lib/smartface/componentContextPatch");
 
-
 const PgReview = extend(PgReviewDesign)(
 	// Constructor
 	function(_super) {
-		// Initalizes super class for this page scope
 		_super(this);
-		// Overrides super.onShow method
 		this.onShow = onShow.bind(this, this.onShow.bind(this));
-		// Overrides super.onLoad method
 		this.onLoad = onLoad.bind(this, this.onLoad.bind(this));
-
 		this.initListView = initListView.bind(this);
 		this.refreshListView = refreshListView.bind(this);
 
@@ -65,7 +60,6 @@ const PgReview = extend(PgReviewDesign)(
 			date: "SEP 5, 2015",
 			details: "Wait a minute, Doc. What are you talking about? What happens to us in the future? What do we become assholes or something? Ho ho ho, look at it roll."
 		}];
-
 	}
 );
 
@@ -87,26 +81,19 @@ function onShow(superOnShow) {
 function onLoad(superOnLoad) {
 	superOnLoad();
 	const page = this;
-	page.headerBar.title = "The Single Wallet";  // this will update from lang   
+	page.headerBar.title = "The Single Wallet"; // this will update from lang   
 	var headerBar = System.OS === "Android" ? page.headerBar : page.parentController.headerBar;
-    headerBar.backgroundColor =  Color.create("#017260");
+	headerBar.backgroundColor = Color.create("#017260");
 
 	var myItem = new HeaderBarItem({
 		image: Image.createFromFile("images://cart_icon.png")
 	});
-page.headerBar.setItems([myItem]);
-
-		
-		
+	page.headerBar.setItems([myItem]);
 	page.initListView();
-
 	setTimeout(() => {
 		this.refreshListView();
 	}, 1000);
-
-
 }
-
 
 function initListView() {
 	const page = this;
@@ -124,21 +111,14 @@ function initListView() {
 		listViewItem.date = date;
 		listViewItem.details = details;
 	};
-
 	page.lvReview.rowHeight = 220;
-
-
-
 }
-
-
 
 function refreshListView() {
 	const page = this;
 	page.lvReview.itemCount = page.data.length;
-	page.backgroundColor =  Color.RED,
-	page.lvReview.refreshData();
-
+	page.backgroundColor = Color.RED,
+		page.lvReview.refreshData();
 }
 
 module.exports = PgReview;
