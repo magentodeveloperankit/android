@@ -1,0 +1,89 @@
+{
+	"components": [
+		{
+			"className": ".page .pgReview",
+			"id": "bc65-9250-c151-fd73",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a4f4-fd71-7c99-67c9",
+					"ded2-dea7-ee01-e747",
+					"0599-3b56-fd31-70b2",
+					"0e9e-5e4b-07c2-598a"
+				],
+				"name": "pgReview",
+				"orientation": "AUTO",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"orientation": "AUTO"
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".statusBar",
+			"id": "a4f4-fd71-7c99-67c9",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "bc65-9250-c151-fd73"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".headerBar",
+			"id": "ded2-dea7-ee01-e747",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "bc65-9250-c151-fd73",
+				"title": "test"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "test"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flSwitch-top",
+			"hiddenComponent": false,
+			"id": "0599-3b56-fd31-70b2",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flSwitch",
+				"parent": "bc65-9250-c151-fd73"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSwitch",
+				"id": "45e1-5b00-5453-184d"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-listView .flGrow",
+			"hiddenComponent": false,
+			"id": "0e9e-5e4b-07c2-598a",
+			"props": {
+				"children": [],
+				"itemCount": 4,
+				"name": "lvReview",
+				"parent": "bc65-9250-c151-fd73",
+				"rowHeight": 54,
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"itemCount": 4,
+				"rowHeight": 54,
+				"usePageVariable": true
+			}
+		}
+	]
+}

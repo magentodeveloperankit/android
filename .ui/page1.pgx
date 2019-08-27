@@ -1,0 +1,179 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "e891b86d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"42b807d1",
+					"b7d28cff",
+					"980522a9",
+					"9e49-7873-afba-472b",
+					"c5bf-e661-b692-eebc",
+					"81c2-b97d-8914-3fed"
+				],
+				"isRemovable": true,
+				"name": "page1",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "SPACE_BETWEEN",
+					"alignItems": "STRETCH"
+				},
+				"orientation": "PORTRAIT",
+				"paddingBottom": 20,
+				"paddingLeft": 16,
+				"paddingRight": 16,
+				"safeAreaEnabled": true
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".statusBar",
+			"id": "42b807d1",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e891b86d"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": true
+			}
+		},
+		{
+			"className": ".headerBar",
+			"id": "b7d28cff",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e891b86d",
+				"title": "Page1"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Page1",
+				"visible": true
+			}
+		},
+		{
+			"className": ".label",
+			"id": "980522a9",
+			"props": {
+				"autoHeight": 36.07142993382045,
+				"children": [],
+				"name": "lbl",
+				"parent": "e891b86d",
+				"text": "Page1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 36.07142993382045,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"flexProps": {
+					"marginLeft": 20,
+					"marginRight": 20,
+					"alignSelf": "STRETCH",
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 32,
+					"bold": false,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Regular"
+				},
+				"height": 90,
+				"multiline": true,
+				"text": "Page1",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 210, 210, 210, 1 )",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".button",
+			"id": "9e49-7873-afba-472b",
+			"props": {
+				"autoHeight": 25.38461501781757,
+				"children": [],
+				"name": "btnNext",
+				"parent": "e891b86d",
+				"text": "Review Page ",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 25.38461501781757,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"text": "Review Page ",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "c5bf-e661-b692-eebc",
+			"props": {
+				"children": [
+					"f921-cac8-edfa-e404"
+				],
+				"name": "flPage",
+				"parent": "e891b86d",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "f921-cac8-edfa-e404",
+			"props": {
+				"autoHeight": 21.42857142857143,
+				"children": [],
+				"name": "lbTitle",
+				"parent": "c5bf-e661-b692-eebc",
+				"text": "  label1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 21.42857142857143,
+				"text": "  label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "81c2-b97d-8914-3fed",
+			"props": {
+				"autoHeight": 25.38461501781757,
+				"children": [],
+				"name": "btnTest",
+				"parent": "e891b86d",
+				"text": "Button Test",
+				"usePageVariable": true
+			},
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 25.38461501781757,
+				"text": "Button Test",
+				"usePageVariable": true
+			}
+		}
+	]
+}

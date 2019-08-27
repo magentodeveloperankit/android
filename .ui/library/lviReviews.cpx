@@ -1,0 +1,188 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .flReview-customer",
+			"hiddenComponent": false,
+			"id": "1e02-9e63-1f0c-10d9",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a403-e64e-0ec6-f3a4",
+					"f0a6-6bfe-49eb-d558"
+				],
+				"name": "lviReviews",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"paddingTop": 16
+			}
+		},
+		{
+			"className": ".sf-imageView .flReview-customer-img",
+			"id": "a403-e64e-0ec6-f3a4",
+			"props": {
+				"children": [],
+				"name": "imgCustomer",
+				"parent": "1e02-9e63-1f0c-10d9",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flGrow .flReview-main",
+			"id": "f0a6-6bfe-49eb-d558",
+			"props": {
+				"children": [
+					"c325-3d27-d959-59bd",
+					"2dae-e506-393d-6fa1",
+					"33a3-ae5b-e4b4-6ad5"
+				],
+				"name": "flMain",
+				"parent": "1e02-9e63-1f0c-10d9",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flReview-customer-flex",
+			"hiddenComponent": false,
+			"id": "c325-3d27-d959-59bd",
+			"props": {
+				"children": [
+					"2486-e4ac-6e05-9e92",
+					"ce9f-5850-b4a7-9771"
+				],
+				"name": "flCustomerTitle",
+				"parent": "f0a6-6bfe-49eb-d558",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flReview-customer-name",
+			"id": "2486-e4ac-6e05-9e92",
+			"props": {
+				"autoWidth": 118.70967495825982,
+				"children": [],
+				"name": "lbName",
+				"parent": "c325-3d27-d959-59bd",
+				"text": "Jessica Smith",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoWidth": 118.70967495825982,
+				"text": "Jessica Smith",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flReview-customer-date",
+			"id": "ce9f-5850-b4a7-9771",
+			"props": {
+				"autoHeight": 21.290322273008286,
+				"autoWidth": 98.91129155312815,
+				"children": [],
+				"name": "lbDate",
+				"parent": "c325-3d27-d959-59bd",
+				"text": "SEP 5, 2015",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 21.290322273008286,
+				"autoWidth": 98.91129155312815,
+				"text": "SEP 5, 2015",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flReview-customer-details",
+			"hiddenComponent": false,
+			"id": "2dae-e506-393d-6fa1",
+			"props": {
+				"children": [
+					"8150-332d-7a8b-64eb"
+				],
+				"name": "flCustomerDetail",
+				"parent": "f0a6-6bfe-49eb-d558",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flReview-customer-details-label",
+			"id": "8150-332d-7a8b-64eb",
+			"props": {
+				"autoHeight": 21.290322273008286,
+				"autoWidth": 1261.1290716355848,
+				"children": [],
+				"name": "lbDetails",
+				"parent": "2dae-e506-393d-6fa1",
+				"text": "Wait a minute, Doc. What are you talking about? What happens to us in the future? What do we become assholes or something? Ho ho ho, look at it roll.",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 21.290322273008286,
+				"autoWidth": 1261.1290716355848,
+				"text": "Wait a minute, Doc. What are you talking about? What happens to us in the future? What do we become assholes or something? Ho ho ho, look at it roll.",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flReview-divider",
+			"id": "33a3-ae5b-e4b4-6ad5",
+			"props": {
+				"children": [],
+				"name": "flDivider",
+				"parent": "f0a6-6bfe-49eb-d558",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

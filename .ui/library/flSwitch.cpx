@@ -1,0 +1,107 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flSwitch-desc",
+			"hiddenComponent": true,
+			"id": "45e1-5b00-5453-184d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"7d02-d2de-0918-bc28",
+					"072b-a7f7-83be-d041"
+				],
+				"name": "flSwitch",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flGrow .flDesc",
+			"id": "7d02-d2de-0918-bc28",
+			"props": {
+				"children": [
+					"f540-3cdf-d039-cc25"
+				],
+				"name": "flDesc",
+				"parent": "45e1-5b00-5453-184d",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flLabel",
+			"id": "f540-3cdf-d039-cc25",
+			"props": {
+				"autoHeight": 20.533334096272785,
+				"autoWidth": 97.60000610351562,
+				"children": [],
+				"name": "lbDesc",
+				"parent": "7d02-d2de-0918-bc28",
+				"text": "Description",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.533334096272785,
+				"autoWidth": 97.60000610351562,
+				"text": "Description",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flReview .flGrow",
+			"id": "072b-a7f7-83be-d041",
+			"props": {
+				"children": [
+					"877e-00b1-703d-4c14"
+				],
+				"name": "flReview",
+				"parent": "45e1-5b00-5453-184d",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flLabel",
+			"id": "877e-00b1-703d-4c14",
+			"props": {
+				"autoHeight": 20.533334096272785,
+				"autoWidth": 114.41666666666667,
+				"children": [],
+				"name": "lbReview",
+				"parent": "072b-a7f7-83be-d041",
+				"text": "Review (136 )",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.533334096272785,
+				"autoWidth": 114.41666666666667,
+				"text": "Review (136 )",
+				"usePageVariable": true
+			}
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "c97d-3039-ad5a-8c0e",
+			"initialized": true,
+			"props": {
+				"children": [
+					"9238-3746-5433-c3db",
+					"e275-754f-909d-9fe8",
+					"e579-7b18-fee6-b106"
+				],
+				"name": "newPage001",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".statusBar",
+			"id": "9238-3746-5433-c3db",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "c97d-3039-ad5a-8c0e"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".headerBar",
+			"id": "e275-754f-909d-9fe8",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "c97d-3039-ad5a-8c0e"
+			},
+			"type": "HeaderBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flSwitch-desc",
+			"hiddenComponent": false,
+			"id": "e579-7b18-fee6-b106",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "flSwitch",
+				"parent": "c97d-3039-ad5a-8c0e"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flSwitch",
+				"id": "45e1-5b00-5453-184d"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"marginTop": 1,
+				"top": 0
+			}
+		}
+	]
+}
